@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>WEB前端开发学习小站</title>
+  <script src="scripts/modernizr-1.6.min.js"></script>
+  <link rel="stylesheet" media="screen" href="styles/basic.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo1.jpg" alt="不断攀越，只为一个全新的高度">
+    <nav>
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="duty.html">岗位职责</a></li>
+        <li><a href="learn.html">学习资料</a></li>
+        <li><a href="progress.html">发展历程</a></li>
+        <li><a href="contact.html">联系</a></li>
+      </ul>
+    </nav>
+  </header>
+  <article>
+    <h1>联系我</h1>
+    <form method="post" action="submit.html">
+    <fieldset>
+      <p>
+        <label for="name">姓名：</label>
+        <input type="text" id="name" name="name"
+        placeholder="您的姓名" required>
+      </p>
+      <p>
+        <label for="email">邮箱:</label>
+        <input type="email" id="email" name="email"
+        placeholder="您的邮箱地址" required>
+      </p>
+      <p>
+        <label for="message">留言:</label>
+        <textarea col="45" rows="7" id="message"
+        name="message" required 
+        placeholder="在这里写下您的留言"></textarea>
+      </p>
+      <input type="submit" value="发送">
+    </fieldset>
+    </form>
+  </article>
+  <script src="scripts/global.js"></script>
+</body>
+</html>
